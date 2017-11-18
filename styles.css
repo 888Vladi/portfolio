@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 960px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.header_bg {
+    position: absolute;
+}
+
+.slid_img1 {
+    width: 1440px;
+    position: absolute
+}
+
+.logo1 {
+    position: relative;
+    margin-left: 393px;
+    /* width: 887px; */
+    margin-top: 332px;
+    width: 660px;
+}
+
+.b_top {
+    position: absolute;
+    margin-left: 643px;
+    margin-top: 32px;
+    width: 162px;
+}
+
+.btn a :hover {
+    background-color: black;
+}
+
+
+/*---------------NAVIGATION----------------------------*/
+
+nav {
+    position: relative;
+    margin-top: 364px;
+    width: 1440px;
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 150px;
+    overflow: hidden;
+    background-color: #262E32;
+}
+
+li {
+    float: right;
+    margin-right: 20px;
+}
+
+li a :hover {
+    color: #67CB7E;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.logo_nav {
+    margin-left: -264px;
+    margin-top: -7px;
+    position: absolute;
+    height: 31px;
+}
