@@ -77,3 +77,44 @@ li a {
     position: absolute;
     height: 31px;
 }
+
+.content {
+    background: #d2d0d2;
+    width: 1440px;
+    height: 400px;
+    position: absolute;
+}
+
+.va {
+    float: left;
+    padding: 140px
+}
+
+.go {
+    float: left;
+    padding: 140px
+}
+
+.ho {
+    float: left;
+    padding: 140px
+}
+
+.cont_float {
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: -68px;
+    margin-left: 15px;
+    color: #566166;
+}
+
+.pading {
+    padding: 130px
+}
+
+p {
+    width: 295px;
+    position: absolute;
+    text-align: justify;
+    color: #919193
+}
