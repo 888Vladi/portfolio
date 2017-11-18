@@ -59,16 +59,17 @@ li {
     margin-right: 20px;
 }
 
-li a :hover {
-    color: #67CB7E;
-}
-
 li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+li a :hover {
+    color: #67CB7E;
+    display: block
 }
 
 .logo_nav {
@@ -81,7 +82,7 @@ li a {
 .content {
     width: 1440px;
     height: 400px;
-    position: absolute;
+    position: relative;
 }
 
 .va {
@@ -102,9 +103,10 @@ li a {
 .cont_float {
     box-sizing: border-box;
     position: absolute;
-    margin-top: -68px;
+    /* margin-top: -68px; */
     margin-left: 15px;
     color: #566166;
+    padding-top: 0px;
 }
 
 .pading {
