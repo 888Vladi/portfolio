@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,GAAG;EACrB,SAAS,EAAE,MAAM;CAAI",
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,GAAG;EACrB,KAAK,EAAE,MAAM;CAAI",
     "sources": [
         "common.sass"
     ],
