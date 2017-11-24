@@ -1,40 +1,7 @@
-.content__slider {
-  margin: 0 auto;
+* {
+  margin: 0;
+  padding: 0;
 }
+ 
 
-.content {
-  overflow: hidden;
-}
-
-.content__inner {
-  width: 1000px;
-  height: 640px;
-}
-
-.page__slide1 {
-  float: left;
-}
-
-.content-inner-1 :target .content__inner {
-  -webkit-transition: all 400ms ease;
-  -moz-transition: all 400ms ease;
-  -o-transition: all 400ms ease;
-  transition: all 400ms ease;
-  margin-left: 0px;
-}
-
-.content-inner-2 :target .content__inner {
-  -webkit-transition: all 400ms ease;
-  -webkit-transition--moz-transition: all 400ms ease;
-  -webkit-transition--o-transition: all 400ms ease;
-  -webkit-transition-transition: all 400;
-  -webkit-transition-margin-left: -640px;
-}
-
-.content-inner-2 :target .content__inner {
-  -webkit-transition: all 400ms ease;
-  -webkit-transition--moz-transition: all 400ms ease;
-  -webkit-transition--o-transition: all 400ms ease;
-  -webkit-transition-transition: all 400;
-  -webkit-transition-margin-left: -1280px;
-}
+ /*# sourceMappingURL= common.css.map */
