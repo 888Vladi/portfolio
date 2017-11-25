@@ -1,8 +1,6 @@
 * {
   margin: 0 auto;
   padding: 0;
-  max-width: 1440px;
-  max-height: 100%;
 }
 
 body {
@@ -22,7 +20,7 @@ html {
 }
 
 .top__img_item {
-  max-width: 100%;
+  max-width: 1440px;
 }
 
 .top__info__item {
