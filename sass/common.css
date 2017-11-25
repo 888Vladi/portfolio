@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+@media only screen and (orientation: landscape) {
+    max-width: 760px
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -50,12 +54,10 @@ button {
 }
 
 button:hover {
-    background-color: black;
-}
-
-a {
-    text-decoration: none;
-    color: white;
+    background-color: #4D5356;
+    color: #66CD7C;
+    cursor: wait;
+    border-radius: 4px;
 }
 
 .nav {
@@ -98,7 +100,32 @@ a {
 }
 
 .info__block {
-    display: flex
+    display: flex;
+    margin-left: -216px;
+    margin-bottom: 20px;
+}
+
+.info__block_description {
+    display: flex;
+}
+
+p {
+    word-break: break-all;
+    width: 300px;
+    margin: 0px auto;
+    margin-left: 116px;
+}
+
+.info__item_1 {
+    margin-left: 332px;
+}
+
+.info__item_2 {
+    margin-left: 183px;
+}
+
+.info__item_3 {
+    margin-right: 258px;
 }
 
 
