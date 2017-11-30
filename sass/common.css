@@ -128,18 +128,18 @@ p {
 .about__me {
   background-color: #F1F1F3;
   width: 100%;
-  height: 600px;
-  margin-top: 98px;
+  height: 630px;
+  margin-top: 77px;
 }
 
 .about__me .about__me_img {
-  height: 600px;
+  height: 630px;
 }
 
 .about__me_description {
   float: right;
   margin-right: 344px;
-  margin-top: 58px;
+  margin-top: 80px;
   width: 512px;
 }
 
@@ -173,3 +173,38 @@ p {
   left: -58px;
   top: 35px;
 }
+
+.icon__web {
+  color: #5A6165;
+}
+
+.icon_1 p {
+  color: #919093;
+}
+
+.icon_2 {
+  width: min-content;
+  box-sizing: border-box;
+  position: relative;
+  left: 433px;
+  bottom: 331px;
+  display: block;
+}
+
+.icon_2 img {
+  position: absolute;
+}
+
+.icon_2 p {
+  margin-top: 12.5px;
+  margin-left: 49px;
+  color: #919093;
+}
+
+.icon__graphic {
+  padding-left: 48px;
+  color: #5A6165;
+}
+ 
+
+ /*# sourceMappingURL= common.css.map */
