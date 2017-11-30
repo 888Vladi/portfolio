@@ -33,7 +33,7 @@ html {
   left: 357px;
 }
 
-button {
+.learn__more {
   color: white;
   position: relative;
   font-size: x-large;
@@ -49,7 +49,7 @@ button {
   left: 8px;
 }
 
-button:hover {
+.learn__more:hover {
   background-color: #333333;
   color: #66CD7C;
   cursor: wait;
@@ -254,4 +254,39 @@ p {
 .icon__seo {
   padding-left: 48px;
   color: #5A6165;
+}
+
+.my__skills {
+  height: 518px;
+  border: solid;
+}
+
+.my__skills p {
+  margin: 0;
+  width: 450px;
+}
+
+.skills__aside {
+  left: 156px;
+  position: absolute;
+  margin-top: 80px;
+}
+
+.contact__me {
+  color: #4FC36B;
+  position: relative;
+  background-color: inherit;
+  border: 2px solid;
+  border-radius: inherit;
+  padding: 15px;
+  padding-left: 33px;
+  padding-right: 33px;
+  font-size: 14px;
+}
+
+.contact__me:hover {
+  background-color: #333333;
+  color: #66CD7C;
+  cursor: wait;
+  border-radius: 4px;
 }
