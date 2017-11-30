@@ -291,9 +291,9 @@ p {
 }
 
 .contact__me:hover {
-  color: #66CD7C;
   cursor: pointer;
   border-radius: 4px;
+  background-color: #3F4D53;
 }
 
 .percentage__level {
