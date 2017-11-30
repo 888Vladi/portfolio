@@ -205,3 +205,53 @@ p {
   padding-left: 48px;
   color: #5A6165;
 }
+
+.icon_3 {
+  width: min-content;
+  box-sizing: border-box;
+  position: relative;
+  left: 47px;
+  bottom: 271px;
+  display: block;
+}
+
+.icon_3 img {
+  position: absolute;
+  left: -4px;
+}
+
+.icon_3 p {
+  margin-top: 12.5px;
+  margin-left: 49px;
+  color: #919093;
+}
+
+.icon__marketing {
+  padding-left: 48px;
+  color: #5A6165;
+}
+
+.icon_4 {
+  width: min-content;
+  box-sizing: border-box;
+  position: relative;
+  left: 433px;
+  bottom: 342px;
+  display: block;
+}
+
+.icon_4 img {
+  position: absolute;
+  left: -4px;
+}
+
+.icon_4 p {
+  margin-top: 12.5px;
+  margin-left: 49px;
+  color: #919093;
+}
+
+.icon__seo {
+  padding-left: 48px;
+  color: #5A6165;
+}
