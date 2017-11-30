@@ -258,7 +258,7 @@ p {
 
 .my__skills {
   height: 518px;
-  border: solid;
+  overflow: hidden;
 }
 
 .my__skills h2 {
@@ -291,10 +291,152 @@ p {
 }
 
 .contact__me:hover {
-  background-color: #F1F0F3;
   color: #66CD7C;
   cursor: pointer;
   border-radius: 4px;
+}
+
+.percentage__level {
+  color: #3F4D53;
+}
+
+.percentage__level p {
+  padding: 1.5px;
+}
+
+.percentage__level_item {
+  width: 600px;
+  height: 20px;
+  background-color: #F1F1F3;
+}
+
+.prozent {
+  display: none;
+}
+
+.percentage__level_item_transition {
+  width: 100px;
+  height: 20px;
+  background-color: #64C97A;
+  margin: 0;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+}
+
+.percentage__level_item_transition:hover {
+  width: 540px;
+}
+
+.percentage__level_item_transition:hover .prozent {
+  text-align: right;
+  position: absolute;
+  text-align: webkit-right;
+  display: inline-block;
+  width: 530px;
+  color: white;
+  cursor: pointer;
+}
+
+.percentage__level {
+  display: grid;
+  position: relative;
+  top: 115px;
+  left: 300px;
+}
+
+.percentage__level h3 {
+  margin-left: 416px;
+  margin-bottom: 10px;
+}
+
+.percentage__level_item {
+  width: 600px;
+  height: 20px;
+  background-color: #F1F1F3;
+}
+
+.prozent_1 {
+  display: none;
+}
+
+.percentage__level_item_transition_1 {
+  width: 100px;
+  height: 20px;
+  background-color: #64C97A;
+  margin: 0;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+}
+
+.percentage__level_item_transition_1:hover {
+  width: 490px;
+}
+
+.percentage__level_item_transition_1:hover .prozent_1 {
+  text-align: right;
+  position: absolute;
+  text-align: webkit-right;
+  display: inline-block;
+  width: 480px;
+  color: white;
+  cursor: pointer;
+}
+
+.percentage__level {
+  display: grid;
+  position: relative;
+  top: 115px;
+  left: 300px;
+}
+
+.percentage__level h3 {
+  margin-left: 416px;
+  margin-bottom: 10px;
+}
+
+.percentage__level_item {
+  width: 600px;
+  height: 20px;
+  background-color: #F1F1F3;
+}
+
+.prozent_3 {
+  display: none;
+}
+
+.percentage__level_item_transition_3 {
+  width: 100px;
+  height: 20px;
+  background-color: #64C97A;
+  margin: 0;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+}
+
+.percentage__level_item_transition_3:hover {
+  width: 430px;
+}
+
+.percentage__level_item_transition_3:hover .prozent_3 {
+  text-align: right;
+  position: absolute;
+  text-align: webkit-right;
+  display: inline-block;
+  width: 420px;
+  color: white;
+  cursor: pointer;
+}
+
+.percentage__level {
+  display: grid;
+  position: relative;
+  top: 115px;
+  left: 300px;
+}
+
+.percentage__level h3 {
+  margin-left: 416px;
+  margin-bottom: 10px;
 }
  
 
