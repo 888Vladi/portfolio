@@ -281,7 +281,7 @@ p {
   color: #4FC36B;
   position: relative;
   background-color: inherit;
-  border: 1.5px solid;
+  border: 1.2px solid;
   border-radius: inherit;
   padding: 15px;
   padding-left: 33px;
@@ -437,6 +437,44 @@ p {
 .percentage__level h3 {
   margin-left: 416px;
   margin-bottom: 10px;
+}
+
+.resume__container {
+  position: absolute;
+}
+
+.resume_description {
+  display: inline-block;
+  text-align: center;
+  /* margin: 0 auto; */
+  /* padding: 0; */
+  width: -webkit-fill-available;
+  top: 100px;
+  position: absolute;
+}
+
+.resume_description p {
+  margin: 0 auto;
+  width: 860px;
+}
+
+.resume_description button {
+  width: 180px;
+  height: 50px;
+  margin-top: 58px;
+  color: #4FC36B;
+  background-color: inherit;
+  border: 1.2px solid;
+  border-radius: inherit;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.resume_description button:hover {
+  background-color: #333333;
+  color: #66CD7C;
+  cursor: wait;
+  border-radius: 4px;
 }
  
 
