@@ -697,6 +697,7 @@ p {
 
 .slider__control ul li:hover {
   background-color: #65C57B;
+  cursor: pointer;
 }
  
 
