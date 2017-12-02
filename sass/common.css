@@ -557,7 +557,7 @@ p {
 }
 
 .work__experience {
-  height: 800px;
+  height: 900px;
   overflow: hidden;
 }
 
@@ -582,6 +582,7 @@ p {
   position: relative;
   left: 838px;
   top: 146px;
+  margin-bottom: 30px;
 }
 
 .lead_item h4 {
@@ -605,6 +606,7 @@ p {
   position: relative;
   left: 838px;
   top: 146px;
+  margin-bottom: 30px;
 }
 
 .junior_item h4 {
@@ -613,6 +615,30 @@ p {
 }
 
 .junior_item .junior-level_item {
+  border: 1px solid;
+  width: max-content;
+  padding: 5px;
+  font-size: x-small;
+  margin-top: 14px;
+  background-color: #59C370;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.developer_item {
+  display: inline-block;
+  position: relative;
+  left: 838px;
+  top: 146px;
+  margin-bottom: 30px;
+}
+
+.developer_item h4 {
+  margin-bottom: 12px;
+  color: #1A383B;
+}
+
+.developer_item .developer-level_item {
   border: 1px solid;
   width: max-content;
   padding: 5px;
