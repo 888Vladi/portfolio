@@ -827,7 +827,7 @@ textarea {
 }
 
 a.sprite {
-  background: url("/Users/volodymyrtarasiuk/Desktop/site_portfolio/img/sprite_soc_icon.png");
+  background: url("../img/sprite_soc_icon.png");
   display: inline-block;
   width: 44px;
   height: 44px;
