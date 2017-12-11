@@ -9,15 +9,18 @@ body {
 
 html {
   height: 100%;
-  width: 100%;
 }
 
 #wrapper {
-  width: 100%;
+  margin: 0 auto;
+  min-height: 100%;
+  height: 100%;
+  height: auto;
+  position: relative;
 }
 
 .top__img_item {
-  width: 100%;
+  max-width: 1440px;
 }
 
 .top__info__item {
